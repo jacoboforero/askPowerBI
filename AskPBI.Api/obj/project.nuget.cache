@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zEQzNC6SEWA=",
+  "success": true,
+  "projectFilePath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Api/AskPBI.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/jacoboforero/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/jacoboforero/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

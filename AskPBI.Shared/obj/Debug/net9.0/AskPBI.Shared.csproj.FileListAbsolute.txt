@@ -1,0 +1,11 @@
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/bin/Debug/net9.0/AskPBI.Shared.deps.json
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/bin/Debug/net9.0/AskPBI.Shared.dll
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/bin/Debug/net9.0/AskPBI.Shared.pdb
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/AskPBI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/AskPBI.Shared.AssemblyInfoInputs.cache
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/AskPBI.Shared.AssemblyInfo.cs
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/AskPBI.Shared.csproj.CoreCompileInputs.cache
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/AskPBI.Shared.dll
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/refint/AskPBI.Shared.dll
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/AskPBI.Shared.pdb
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/Debug/net9.0/ref/AskPBI.Shared.dll

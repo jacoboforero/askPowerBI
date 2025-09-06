@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Api/AskPBI.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Api/AskPBI.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Api/AskPBI.Api.csproj",
+        "projectName": "AskPBI.Api",
+        "projectPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Api/AskPBI.Api.csproj",
+        "packagesPath": "/Users/jacoboforero/.nuget/packages/",
+        "outputPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jacoboforero/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/AskPBI.Charting.csproj": {
+                "projectPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/AskPBI.Charting.csproj"
+              },
+              "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/AskPBI.Shared.csproj": {
+                "projectPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/AskPBI.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/AskPBI.Charting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/AskPBI.Charting.csproj",
+        "projectName": "AskPBI.Charting",
+        "projectPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/AskPBI.Charting.csproj",
+        "packagesPath": "/Users/jacoboforero/.nuget/packages/",
+        "outputPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jacoboforero/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/AskPBI.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/AskPBI.Shared.csproj",
+        "projectName": "AskPBI.Shared",
+        "projectPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/AskPBI.Shared.csproj",
+        "packagesPath": "/Users/jacoboforero/.nuget/packages/",
+        "outputPath": "/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jacoboforero/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

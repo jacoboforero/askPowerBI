@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AskPBI.Bot/1.0.0": {
+        "dependencies": {
+          "AskPBI.Shared": "1.0.0"
+        },
+        "runtime": {
+          "AskPBI.Bot.dll": {}
+        }
+      },
+      "AskPBI.Shared/1.0.0": {
+        "runtime": {
+          "AskPBI.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AskPBI.Bot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AskPBI.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
