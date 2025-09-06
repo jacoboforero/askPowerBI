@@ -1,0 +1,12 @@
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/bin/Debug/net9.0/AskPBI.Charting.deps.json
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/bin/Debug/net9.0/AskPBI.Charting.dll
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/bin/Debug/net9.0/AskPBI.Charting.pdb
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.AssemblyInfoInputs.cache
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.AssemblyInfo.cs
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.csproj.CoreCompileInputs.cache
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.sourcelink.json
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.dll
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/refint/AskPBI.Charting.dll
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/AskPBI.Charting.pdb
+/Users/jacoboforero/Desktop/Personal/Personal Projects/askPowerBI/AskPBI.Charting/obj/Debug/net9.0/ref/AskPBI.Charting.dll

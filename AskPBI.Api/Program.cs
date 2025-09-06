@@ -1,5 +1,6 @@
-using Azure.AI.OpenAI;
+
 using AskPBI.Api.Services;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,25 +14,14 @@ builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
-// Configure Azure OpenAI
-builder.Services.Configure<AzureOpenAIOptions>(
-    builder.Configuration.GetSection(AzureOpenAIOptions.SectionName));
+// Configure Foundry
+builder.Services.Configure<FoundryOptions>(
+    builder.Configuration.GetSection(FoundryOptions.SectionName));
 
-// Register Azure OpenAI client
-builder.Services.AddSingleton<OpenAIClient>(serviceProvider =>
-{
-    var options = serviceProvider.GetRequiredService<IOptions<AzureOpenAIOptions>>().Value;
-    
-    if (string.IsNullOrEmpty(options.Endpoint) || string.IsNullOrEmpty(options.ApiKey))
-    {
-        throw new InvalidOperationException("Azure OpenAI endpoint and API key must be configured in appsettings.json");
-    }
-    
-    return new OpenAIClient(new Uri(options.Endpoint), new Azure.AzureKeyCredential(options.ApiKey));
-});
+// Register Foundry services
+builder.Services.AddScoped<FoundryClient>();
+builder.Services.AddScoped<IIntentService, FoundryIntentService>();
 
-// Register intent service
-builder.Services.AddScoped<IIntentService, AzureOpenAIIntentService>();
 
 var app = builder.Build();
 
@@ -177,7 +167,7 @@ app.MapPost("/insights/query", async (InsightQueryRequest request, IIntentServic
         
         logger.LogInformation("Parsed intent: {Intent}", System.Text.Json.JsonSerializer.Serialize(intent));
         
-        // For now, return the hardcoded sample card with the parsed intent
+        // For now, return the hardcoded sample card along with the parsed intent
         var response = new
         {
             success = true,
@@ -187,13 +177,13 @@ app.MapPost("/insights/query", async (InsightQueryRequest request, IIntentServic
             query = request.Query
         };
         
-        logger.LogInformation("Returning sample adaptive card with parsed intent for query: {Query}", request.Query);
+        logger.LogInformation("Returning response with intent for query: {Query}", request.Query);
         
         return Results.Ok(response);
     }
     catch (Exception ex)
     {
-        logger.LogError(ex, "Failed to process insight query: {Query}", request.Query);
+        logger.LogError(ex, "Error processing query: {Query}", request.Query);
         
         var errorResponse = new
         {

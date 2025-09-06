@@ -53,7 +53,11 @@
           "dependencies": {
             "Azure.AI.OpenAI": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.2.0-beta.4, )"
+            },
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.47.3, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

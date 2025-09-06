@@ -26,28 +26,28 @@ public record IntentResult
     public List<Filter> Filters { get; init; } = new();
     
     /// <summary>
-    /// The original query text
+    /// The original query that was parsed
     /// </summary>
     public required string OriginalQuery { get; init; }
 }
 
 /// <summary>
-/// Represents a time range for data analysis
+/// Represents a time range for analysis
 /// </summary>
 public record TimeRange
 {
     /// <summary>
     /// Start date of the time range
     /// </summary>
-    public required DateTime StartDate { get; init; }
+    public required string StartDate { get; init; }
     
     /// <summary>
     /// End date of the time range
     /// </summary>
-    public required DateTime EndDate { get; init; }
+    public required string EndDate { get; init; }
     
     /// <summary>
-    /// Human-readable description of the time range (e.g., "2024", "Last 6 months")
+    /// Human-readable description of the time range
     /// </summary>
     public required string Description { get; init; }
 }
@@ -63,67 +63,16 @@ public record Filter
     public required string Dimension { get; init; }
     
     /// <summary>
-    /// The value(s) to filter by
+    /// The value to filter by
     /// </summary>
-    public required List<string> Values { get; init; }
-    
-    /// <summary>
-    /// The operator for the filter (e.g., "equals", "contains", "in")
-    /// </summary>
-    public required string Operator { get; init; }
+    public required string Value { get; init; }
 }
 
 /// <summary>
-/// Valid measures that can be requested
+/// Exception thrown when intent parsing fails
 /// </summary>
-public static class ValidMeasures
+public class IntentParsingException : Exception
 {
-    public static readonly HashSet<string> Measures = new(StringComparer.OrdinalIgnoreCase)
-    {
-        "Revenue",
-        "Sales",
-        "Profit",
-        "Profit Margin",
-        "Units Sold",
-        "Customer Count",
-        "Orders",
-        "Average Order Value",
-        "Cost",
-        "Expenses"
-    };
-}
-
-/// <summary>
-/// Valid time grains for data aggregation
-/// </summary>
-public static class ValidGrains
-{
-    public static readonly HashSet<string> Grains = new(StringComparer.OrdinalIgnoreCase)
-    {
-        "Day",
-        "Week",
-        "Month",
-        "Quarter",
-        "Year"
-    };
-}
-
-/// <summary>
-/// Valid dimensions that can be filtered
-/// </summary>
-public static class ValidDimensions
-{
-    public static readonly HashSet<string> Dimensions = new(StringComparer.OrdinalIgnoreCase)
-    {
-        "Region",
-        "Country",
-        "State",
-        "City",
-        "Product",
-        "Category",
-        "Subcategory",
-        "Customer",
-        "Sales Rep",
-        "Channel"
-    };
+    public IntentParsingException(string message) : base(message) { }
+    public IntentParsingException(string message, Exception innerException) : base(message, innerException) { }
 }
